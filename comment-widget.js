@@ -26,9 +26,8 @@ const s_pageId = '2077031755';
 const s_replyId = '1135366360';
 const s_sheetId = '14j9IHRx4LyV_yYy9xcPW2CzGBC_lPyRfemOLVfLfWjs';
 
-// The values below are necessary for accurate timestamps, I've filled it in with EST as an example
-const s_timezone = +8; // Your personal timezone (Example: UTC-5:00 is -5 here, UTC+10:30 would be 10.5)
-const s_daylightSavings = false; // If your personal timezone uses DST, set this to true
+const s_timezone = +8;
+const s_daylightSavings = false;
 // For the dates DST start and end where you live: [Month, Weekday, which number of that weekday, hour (24 hour time)]
 const s_dstStart = ['March', 'Sunday', 2, 2]; // Example shown is the second Sunday of March at 2:00 am
 const s_dstEnd = ['November', 'Sunday', 1, 2]; // Example shown is the first Sunday of November at 2:00 am
